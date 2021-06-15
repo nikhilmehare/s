@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { HiViewGridAdd } from "react-icons/hi";
+import SimpleForm from "../components/SimpleForm";
 
 
 
@@ -65,7 +66,7 @@ export default function BuyerMain() {
                     about the latest updates, launch dates and more..
                   </p>
                 </div>
-                
+                <SimpleForm />
               </div>
             </Transition.Child>
           </div>
