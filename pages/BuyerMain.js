@@ -118,11 +118,11 @@ export default function BuyerMain() {
                     <div className="col-1">
                       <div className="mb-4">
                         <div className="shadow-lg rounded-2xl w-80 p-4 bg-white relative overflow-hidden">
-                          {/* <img
+                          <img
                             alt="moto"
-                            src="/images/object/1.png"
+                            src="/plant.jpg"
                             className="absolute -right-16 -bottom-16 h-40 w-40 mb-4"
-                          /> */}
+                          />
                           <div className="w-4/6">
                             <p className="text-gray-800 text-lg font-medium mb-2">
                               Avg
@@ -204,7 +204,7 @@ export default function BuyerMain() {
                             
                               <img width="220" height="220"
                                 className="relative w-60"
-                                src="/index.svg"
+                                src="/shop.svg"
                                 alt="shopping"
                               />
                             </div>
