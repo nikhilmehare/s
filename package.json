@@ -2,9 +2,10 @@
   "name": "progressive-web-app",
   "version": "0.1.0",
   "scripts": {
-    "dev": "next dev -p 2000",
-    "build": "next build && next export",
-    "start": "next start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export && mv out _static"
   },
   "dependencies": {
     "@headlessui/react": "^1.2.0",
