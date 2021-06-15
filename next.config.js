@@ -6,4 +6,7 @@ module.exports = withPWA({
     dest: 'public',
     runtimeCaching,
   },
+  env: {
+    MAILCHIMP: "https://gmail.us6.list-manage.com/subscribe/post?u=b5a364d718e2517a601832a42&amp;id=58bbc3cd7c"
+      },
 })

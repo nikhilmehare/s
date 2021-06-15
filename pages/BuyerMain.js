@@ -227,7 +227,7 @@ export default function BuyerMain() {
                       <div className="mb-4">
                         <div className="overflow-hidden shadow border  rounded-2xl  w-80  m-auto">
                         
-                          <img width="320" height="220" alt="t-shirts" src="/buyermain.jpg" className="  " />
+                          <img width="320" height="220" alt="t-shirts" src="/buyerpage.jpg" className="  " />
                        
                         </div>
                       </div>
